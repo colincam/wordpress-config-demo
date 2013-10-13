@@ -32,3 +32,10 @@ site :opscode
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
 # cookbook "myserver", :path => "/code/myserver-cookbook"
+
+#site :opscode
+
+#cookbook 'memcached',     '~> 1.3.0'
+#cookbook 'redisio',       '~> 1.4.1'
+
+cookbook 'wordpress'
